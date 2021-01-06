@@ -1,36 +1,121 @@
 li{
-    display:inline;
+    list-style-type: none;
 }
 body{
-    font-family: Arial,sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
 }
-.navbar{
-    list-style-type: none;
-    margin: 0;
-    padding :0;
+nav{
+    font-size: 10px;
 }
+
 
 .google-logo{
-    width:272px;
-    height:92px;
-    padding-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    width:231.2px;
+    height:78.2px;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    margin: 0 auto;
     display:block
 }
-#footer{
+.footer{
     background-color: #f2f2f2;
-    bottom: 0;
-    font-size: 10pt;
-    height: 35px;
-    position: fixed;
-    width: 100%;
-  
-}
-.searchbar{
-    margin-top: 30px;
-    margin-left: 42%;
-
     display:flex;
+    flex-wrap: row wrap;
+    bottom:0;
+    left:0;
     padding:0;
+    margin:0;
+    position: fixed;
+    width:100%;
+    height:40px;
+    font-size:12px;
+    padding-left:1.5%;
+    padding-right:1.5%;
 }
+.footer li{
+    margin-top: 5px;
+    padding:0.75%;
+}
+.bar{
+    display:flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+}
+.bar label{
+   margin:auto;
+   border: transparent;
+}
+.search{
+    display:flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    padding-top:0.75%;
+}
+.search label{
+    margin :5px;
+    
+}
+#search{
+    width:127.367px;
+    height:36px;
+    border: 0;
+    background: #f0eeee;
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#lucky{
+    width:127.367px;
+    height:36px;
+    border: 0;
+    background: #f0eeee;
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#searchbar{
+    
+    border-radius:25px;
+    border-color: whitesmoke;
+    border-width: 1px;
+    height:34px;
+    width:504px;
+}
+#searchbar:hover{
+   filter: drop-shadow(0 0 0.1rem grey);
+}
+.navigation{
+    display:flex;
+    flex-wrap: row wrap;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+}
+.navigation li{
+    margin-top: 3px;
+    padding: 0.5%;
+}
+
+.emptynav{
+    margin-left:5%;
+    margin-right:3%;
+    width:75%;
+}
+.signin{
+    background-color: #4285f4;
+    color:white;
+    position:relative;
+    width:45px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:center;
+    margin-bottom: 1.5%;
+}
+
+.empty-foot{
+    
+    margin-right:15%;
+    width:50%;
+}
+

@@ -4,27 +4,34 @@
         <meta charset ="utf-8">
         <title>Google Homepage</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">     
     </head>
     <body>
-        <header>
-            <ul class="navbar">
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
+    
+        <nav>
+            <ul class="navigation">
+                <li class="leftnav">About</li>
+                <li class="leftnav">Store</li>
+                <li class="emptynav"></li>
+                <li class="rightnav">Gmail</li>
+                <li class="rightnav">Images</li>
+                
+                <li class="signin">Sign In</li>
             </ul>
-          
-        </header>
+
+        </nav>
+        
         <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  alt="google">
         
-        <div class="searchbar">
+        <div class="bar">
             <label for="searchbar">
-                <input type="text" id="searchbar">
+                <input size="10"type="text" id="searchbar">
             </label>
         </div>
 
     
-        <div class="search">
+       <div class="search">
             <label for="search">
                 <input type="submit" id="search" value="Google Search">
             </label>
@@ -36,13 +43,14 @@
        
      
         <footer id="footer">
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+            <ul class="footer">
+                <li class="left-foot">Advertising</li>
+                <li class="left-foot">Business</li>
+                <li class="left-foot">How Search Works</li>
+                <li class="empty-foot"></li>
+                <li class="right-foot">Privacy</li>
+                <li class="right-foot">Terms</li>
+                <li class="right-foot">Settings</li>
             </ul>
         </footer>
         
